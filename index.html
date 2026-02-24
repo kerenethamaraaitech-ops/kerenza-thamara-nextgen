@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerenza Thamara | Next Gen Vision</title>
+    <meta
+      name="description"
+      content="Hub officiel de Kerenza Thamara: vision, projets tech, projets modeling, collaborations et médias."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+
+    <header class="hero" id="top">
+      <nav class="nav container panel">
+        <a href="#top" class="logo" aria-label="Accueil Kerenza Thamara">
+          <img class="logo-mark" src="favicon.svg" alt="KT" />
+          <span class="logo-name">Kerenza Thamara</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="primary-navigation">
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#collabs">Collabs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="tag">NEXT GEN VISION • MULTI-PROJECT BUILDER • MONTRÉAL</p>
+          <h1>Kerenza Thamara</h1>
+          <div class="hero-divider" aria-hidden="true"></div>
+          <p class="hero-subbrand">
+            Je construis une présence, une vision, et des projets entre tech & creative.
+          </p>
+          <p class="subtitle">
+            Ici tu trouves mon histoire, mes valeurs, mes projets tech, mes projets modeling, et
+            mes collaborations. Un seul hub. Une seule identité.
+          </p>
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-cyan">Explorer mes projets</a>
+            <a href="#collabs" class="btn btn-magenta">Collaborer</a>
+          </div>
+          <p class="origin-line">Montréal • Racines: Haïti • Building Next Gen.</p>
+        </div>
+
+        <div class="hero-visual panel" aria-hidden="true">
+          <div class="ring ring-a"></div>
+          <div class="ring ring-b"></div>
+          <div class="ring ring-c"></div>
+          <div class="core"></div>
+          <div class="watermark">KT</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="a-propos" class="section container">
+        <h2>// À propos</h2>
+        <p>
+          J’avance avec discipline et créativité pour construire une marque personnelle premium.
+          Ici, je partage ma progression, mes idées et mes résultats en toute transparence.
+        </p>
+        <div class="stats">
+          <article class="card panel">
+            <h3>+20</h3>
+            <p>Concepts de contenus prêts à publier</p>
+          </article>
+          <article class="card panel">
+            <h3>3</h3>
+            <p>Piliers: stratégie, storytelling, exécution</p>
+          </article>
+          <article class="card panel">
+            <h3>∞</h3>
+            <p>Ambition d’apprentissage et d’évolution</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projets" class="section container">
+        <h2>// Projets live</h2>
+        <div class="grid">
+          <article class="project-card panel">
+            <h3>Logbook Hebdo</h3>
+            <p>Chaque semaine: objectifs, résultats, leçons et plan de progression.</p>
+          </article>
+          <article class="project-card panel">
+            <h3>Digital Drops</h3>
+            <p>Ressources courtes et utiles pour aider d’autres créateurs à accélérer.</p>
+          </article>
+          <article class="project-card panel">
+            <h3>Voice & Presence</h3>
+            <p>Développement d’une communication claire, humaine et différenciante.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="vision" class="section container split">
+        <article class="panel vision-card">
+          <h2>// Vision</h2>
+          <blockquote>
+            “Construire une identité digitale puissante, authentique et utile, pour attirer les
+            bonnes opportunités et créer un impact durable.”
+          </blockquote>
+        </article>
+        <article class="panel highlight-card" id="collabs">
+          <p class="mini-title">STATUS</p>
+          <h3>NEXT GEN VISION</h3>
+          <p>J’élève ma présence en ligne en combinant art visuel, stratégie de marque et action.</p>
+        </article>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="contact-wrap panel">
+          <div>
+            <h2>// Contact</h2>
+            <p>
+              Tu veux créer quelque chose de fort ensemble ? Envoie un message et on lance une
+              discussion.
+            </p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Nom
+              <input type="text" name="name" placeholder="Ex: Alex" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="alex@email.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Parlons de ton idée..." required></textarea>
+            </label>
+            <button type="submit" class="btn btn-cyan">Envoyer</button>
+            <p id="formMessage" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <img class="logo-mark logo-mark-footer" src="favicon.svg" alt="KT" />
+        Kerenza Thamara — Next Gen Vision
+      </p>
+      <p class="footer-sub">Build • Create • Elevate</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
