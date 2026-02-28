@@ -11,8 +11,8 @@ export default async function handler(req, res) {
     const { message } = req.body ?? {};
     if (!message) return res.status(400).json({ error: "Missing message" });
 
-    const MODEL = "mistralai/Mistral-7B-Instruct-v0.2";
-
+    const MODEL = "HuggingFaceH4/zephyr-7b-beta";
+    
     const hfRes = await fetch(`https://api-inference.huggingface.co/models/${MODEL}`, {
       method: "POST",
       headers: {
