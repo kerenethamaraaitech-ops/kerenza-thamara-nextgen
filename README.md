@@ -1,1 +1,0 @@
-# kerenza-thamara-nextgen
